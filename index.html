@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="stylesheet.css"/>
+</head>
+<body>
+<table border=”1” cellspacing=”2” cellpadding=”5”>
+
+<tr><div id = "qz">
+    <td>Quiz Grades: <input type="text" id="quizzes" value="100" size="25"><td/>
+    <td>Quiz Weight:<input type="text" id="QWeight" value="20" size="25"><td/>
+    <td id = 1><div id = "quizAveraged"></div></td>
+</div></tr>
+
+<tr><div id = "hw">
+    <td>Homework Grades:<input type="text" id="homework" value="100" size="25"><td/>
+    <td>Homework Weight<input type="text" id="hWWeight" value="20" size="25"><td/>
+    <td id="2"><div id = "hwAveraged"></div></td>
+</div><tr/>
+
+<tr><div id = "t">
+    <td>Test Grades: <input type="text" id="tests" value="100" size="25"><td/>
+    <td>Test Weight: <input type="text" id="tWeight" value="20" size="25"><td/>
+    <td id = "3"><div id = "testAveraged"></div></td>
+</div></tr>
+
+<tr><div id = "mt">
+    <td>Midterm Grades: <input type="text" id="midTerm" value="100" size="25"><td/>
+    <td>Midterm Weight: <input type="text" id="mTWeight" value="20" size="25"><td/>
+    <td id = "4"><div id = "mtAveraged"></div></td>
+</div><tr/>
+<tr id = "5"><div>
+    <td>Final Weight: <input type="text" id="finalWeight" value="20" size="25"><td/>
+    <td>Desired Grade: <input type="text" id="gradeWanted" value="90" size="25"><td/>
+    <td><div id = "final"></div></td>
+
+</div></tr>
+    <tr>
+        <td> <div id="grades"></div></td>
+    </tr>
+</table>
+<div id = "button">
+<button id="calculate" onclick="calculateCurrentGrade()">Get grade.</button>
+</div>
+<div id = "error"></div>
+</body>
+</html>

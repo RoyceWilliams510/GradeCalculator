@@ -1,0 +1,91 @@
+#submiter{
+    margin:100px;
+}
+body{
+    background-color: darkcyan;
+}
+table{
+    margin-top: 30px;
+    font-size: 25px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    border:black;
+    background-color: aliceblue;
+}
+#calculate{
+    width: 100px;
+    height: 50px;
+    font-size: larger;
+    border-width: medium;
+    border-color: black;
+
+}
+#button{
+    position: relative;
+    margin: 20px;
+    text-align: center;
+}
+#finalWeight{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+}
+#hWWeight{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+
+}
+#homework{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+}
+#tWeight{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+}
+#tests{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+
+}
+#mTWeight{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+
+}
+#midTerm{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+
+}
+#QWeight{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+
+}
+#quizzes{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+}
+#gradeWanted{
+    width: 100px;
+    height: 25px;
+    font-size: large;
+}
+#error{
+    font-size: 30px;
+    text-align: center;
+    color: red;
+}
+
+
