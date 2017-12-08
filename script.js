@@ -67,14 +67,15 @@ function gradeNeeded(x){
 
 
 function convertString(x){
-    for(var i = 0; i < x.length; i ++) {
-        if (isNaN(x[i]) == true) {
-            document.getElementById("error").innerHTML = " ERROR: One of the characters entered in the grades section was not a number please only submit numbers. ";
-        }
-    }
+
     var gradeArray = x.split(",");
     for (var i = 0; i < gradeArray.length; i++) {
         gradeArray[i] = parseInt(gradeArray[i]);
+    }
+    for(var i = 0; i < gradeArray.length; i ++) {
+        if (isNaN(x[i]) == true) {
+            document.getElementById("error").innerHTML = " ERROR: One of the characters entered in the grades section was not a number please only submit numbers. ";
+        }
     }
     console.log(gradeArray);
     return gradeArray;
